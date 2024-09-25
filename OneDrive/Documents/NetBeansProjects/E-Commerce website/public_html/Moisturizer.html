@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moisturizer</title>
+<style>
+     body {background-color: beige;}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<center><h1>Skinzy</h1><br>
+    <h2>Moisturizer</h2>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="loreal mo.jpg" alt="cream" style="width:50%">
+      <div class="container">
+        <h2>L'o'real day/night Moisturizer </h2>
+        <p class="title">560/-</p>
+        <p>Get a soft and clear skin with our moisturizer</p>
+        
+        <p><a href='loreal mo order.html'><button class="button">Shop now!</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="neutrogena mo.jpg" alt="mo" style="width:45%">
+      <div class="container">
+        <h2>Neutrogena hydro boost moisturizer</h2>
+        <p class="title">450/-</p>
+        <p>Try our moisturizer to get an acne free skin</p>
+        
+        <p><a href='neutrogena mo order.html'><button class="button">Shop Now!</button></a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="olay mo.jpg" alt="olay" style="width:50%">
+      <div class="container">
+          <h2>Olay night hydrating Moisturizer</h2>
+        <p class="title">750/-</p>
+        <p>Night moisturizer helps the skin to stay smooth throught the day.</p>
+        
+        <p><a href='olay mo order.html'><button class="button">Shop Now!</button></a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

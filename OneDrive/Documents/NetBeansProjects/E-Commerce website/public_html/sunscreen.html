@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunscreen</title>
+<style>
+    body {background-color: beige;}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<center><h1>Skinzy</h1><br>
+<h2>Sunscreen</h2>
+
+<br>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="dermaco sun.jpg" style="width:50%">
+      <div class="container">
+        <h2>Dermaco Aqua gel Sunscreen</h2>
+        <p class="title">480/-</p>
+        <p>Get a glowy and bright skin by protecting yourself from sunlight </p>
+        
+        <p><a href="dermaco sun order.html"><button class="button">Shop now!</button></a></p>
+      </div>
+    </div>
+  
+    </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="plum sun.jpg" style="width:50%">
+      <div class="container">
+        <h2>Plum daylight sunscreen </h2>
+        <p class="title">450/-</p>
+        <p>Get a high protection from sunlight keeping your skin healthier</p>
+        
+        <p><a href="plum sun order.html"><button class="button">Shop now!</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="column">
+    <div class="card">
+      <img src="dot sun.jpg"  style="width:48%">
+      <div class="container">
+        <h2>dot & key Sunscreen</h2>
+        <p class="title">450/-</p>
+        <p>Fights the uv rays keeping your skin clear</p>
+        
+        <p><a href="dot sun order.html"><button class="button">Shop now!</button></a></p>
+      </div>
+    </div>
+  </div>
+    
+    
+
+</body>
+</html>

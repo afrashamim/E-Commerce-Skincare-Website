@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Serum</title>
+<style>
+    body {background-color: beige;}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+<body>
+
+<center><h1>Skinzy</h1><br>
+<h2>Serum</h2>
+
+<br>
+
+
+  <div class="column">
+    <div class="card">
+      <img src="bright boost.jpg" style="width:50%">
+      <div class="container">
+        <h2>Bright boost facial serum</h2>
+        <p class="title">499/-</p>
+        <p>Get a glowy and bright skin with bright boost facial serum </p>
+        
+        <p><a href="bright boost order.html"><button class="button">Shop now!</button></a></p>
+      </div>
+    </div>
+  
+    </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="hyaluronic.jpg" style="width:50%">
+      <div class="container">
+        <h2>Hyaluronic Acid Serum</h2>
+        <p class="title">350/-</p>
+        <p>Gives hydration for your skin and makes it soft</p>
+        
+        <p><a href="hyaluronic order.html"><button class="button">Shop now!</button></a></p>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="column">
+    <div class="card">
+      <img src="niacinamide.jpg"  style="width:42%">
+      <div class="container">
+        <h2>Niacinamide Facial Serum</h2>
+        <p class="title">450/-</p>
+        <p>Fights acne in your skin and makes it clear</p>
+        
+        <p><a href="niacinamide order.html"><button class="button">Shop now!</button></a></p>
+      </div>
+    </div>
+  </div>
+    
+    
+
+</body>
+</html>
