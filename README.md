@@ -48,10 +48,6 @@ While this website doesn’t allow for actual shopping or transactions, we hope 
 
 ---
 
-## Contact Us 📞
-This demo site does not offer customer support, as it’s simply a showcase. However, if you’d like to learn more about **Skinzy** or are interested in future product availability, feel free to reach out when the website becomes functional!
-
----
 
 ## Happy Demo Browsing! 🎉
 Thanks for checking out **Skinzy**! While the website is not currently live, we hope you enjoy the demo and look forward to seeing you on the real site when it launches! 🌟
